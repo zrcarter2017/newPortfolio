@@ -1,0 +1,65 @@
+body {
+background-image:url('../images/nice_snow.png');
+}
+
+.jumbotron{
+	text-align:center;
+	background:
+    /* top, transparent red, faked with gradient */ 
+    linear-gradient(
+      rgba(0, 0, 0, 0.45), 
+      rgba(0, 0, 0, 0.45)
+    ),
+    url('../images/background1.jpeg');
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color:white;
+	background-color: rgba(0,0,0,0.5);
+	font-family: 'Kanit', sans-serif;
+}
+
+.card{
+	width:350px;
+	border:none;
+
+}
+
+.card-img-top {
+    width: 100%;
+    height: 250px;
+}
+
+.footer {
+  margin-top:20px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
+/*contact.html style*/
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
