@@ -11,18 +11,24 @@ background-image:url('../images/nice_snow.png');
       rgba(0, 0, 0, 0.45)
     ),
     url('../images/background1.jpeg');
-	background-position: 50% 50%;
-	background-repeat: no-repeat;
-	background-size: cover;
-	color:white;
-	background-color: rgba(0,0,0,0.5);
-	font-family: 'Kanit', sans-serif;
+  	background-position: 50% 50%;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	color:white;
+  	background-color: rgba(0,0,0,0.5);
+  	font-family: 'Kanit', sans-serif;
 }
 
 .card{
 	width:100%;
 	border:none;
+  margin-bottom:15px;
 
+}
+
+.fade:hover
+{
+        opacity:.5;
 }
 
 .portfolioCard{
@@ -30,7 +36,7 @@ background-image:url('../images/nice_snow.png');
 }
 
 .indexCard{
-  height:620px;
+  height:595px;
 }
 
 
@@ -88,4 +94,26 @@ input[type=submit]:hover {
   
 }
 
+
+.hover figure:hover img {
+  opacity: 1;
+  -webkit-animation: flash 1.5s;
+  animation: flash 1.5s;
+}
+@-webkit-keyframes flash {
+  0% {
+    opacity: .4;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes flash {
+  0% {
+    opacity: .4;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 
