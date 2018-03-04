@@ -25,6 +25,10 @@ background-image:url('../images/nice_snow.png');
 
 }
 
+.portfolioCard{
+  height:200px;
+}
+
 .indexCard{
   height:620px;
 }
