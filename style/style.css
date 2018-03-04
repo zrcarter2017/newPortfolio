@@ -20,13 +20,13 @@ background-image:url('../images/nice_snow.png');
 }
 
 .card{
-	width:350px;
+	width:100%;
 	border:none;
 
 }
 
 .portfolioCard{
-  height:200px;
+  height:270px;
 }
 
 .indexCard{
@@ -72,3 +72,20 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: #45a049;
 }
+
+
+@media screen and (max-width: 990px) {
+  .card-img-top{
+    height:400px;
+  }
+  
+}
+
+@media screen and (max-width: 540px) {
+  .card-img-top{
+    height:250px;
+  }
+  
+}
+
+
