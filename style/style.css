@@ -36,7 +36,7 @@ background-image:url('../images/nice_snow.png');
 }
 
 .indexCard{
-  height:595px;
+  height:720px;
 }
 
 
@@ -84,12 +84,18 @@ input[type=submit]:hover {
   .card-img-top{
     height:400px;
   }
+  .indexCard{
+    height:440px;
+  }
   
 }
 
 @media screen and (max-width: 540px) {
   .card-img-top{
     height:250px;
+  }
+    .indexCard{
+    height:600px;
   }
   
 }
