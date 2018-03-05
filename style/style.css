@@ -101,13 +101,20 @@ input[type=submit]:hover {
     background-color: #45a049;
 }
 
+@media screen and (min-width: 1200px) {
+
+  .indexCard{
+    height:600px;
+  }
+  
+}
 
 @media screen and (max-width: 990px) {
   .card-img-top{
     height:400px;
   }
   .indexCard{
-    height:440px;
+    height:420px;
   }
   
 }
@@ -117,7 +124,7 @@ input[type=submit]:hover {
     height:250px;
   }
     .indexCard{
-    height:600px;
+    height:570px;
   }
 
   .contactElements{
