@@ -45,6 +45,21 @@ background-image:url('../images/nice_snow.png');
     height: 250px;
 }
 
+.contact{
+  text-align: center;
+}
+
+.contactImage{
+  width:230px;
+  height:200px;
+}
+
+.contactElements{
+  font-style: italic;
+  text-align: left;
+}
+
+
 .footer {
   margin-top:20px;
   right: 0;
@@ -53,6 +68,13 @@ background-image:url('../images/nice_snow.png');
   padding: 1rem;
   background-color: #efefef;
   text-align: center;
+}
+
+.contactFooter{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 /*contact.html style*/
 input[type=text], select, textarea {
@@ -97,8 +119,18 @@ input[type=submit]:hover {
     .indexCard{
     height:600px;
   }
+
+  .contactElements{
+    font-size:14px;
+  }
+
+  .contactImage{
+    width:170px;
+    height:150px;
+  }
   
 }
+
 
 
 .hover figure:hover img {
